@@ -11,8 +11,8 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'marshellfitriawan19@gmail.com'; // GANTI
-    $mail->Password   = 'rgkm bpjx foeh iaku'; // GANTI DENGAN APP PASSWORD
+    $mail->Username   = 'marshellfitriawan19@gmail.com'; 
+    $mail->Password   = 'rgkm bpjx foeh iaku'; 
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
