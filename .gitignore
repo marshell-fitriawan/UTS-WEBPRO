@@ -1,0 +1,30 @@
+# Node, OS, IDE
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Composer
+/vendor/
+composer.phar
+
+# Environment / secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Build / logs
+logs/
+*.log
+tmp/
+cache/
+
+# PHPStorm/JetBrains
+*.iml
+
+# Other
+*.bak
+*.swp
+*.dist
